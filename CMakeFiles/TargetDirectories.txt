@@ -1,0 +1,16 @@
+F:/Compression/VTM/tags/VTM-1.1/build/CMakeFiles/ALL_BUILD.dir
+F:/Compression/VTM/tags/VTM-1.1/build/CMakeFiles/ZERO_CHECK.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/Lib/CommonLib/CMakeFiles/CommonLib.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/Lib/DecoderAnalyserLib/CMakeFiles/DecoderAnalyserLib.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/Lib/EncoderLib/CMakeFiles/EncoderLib.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/Lib/Utilities/CMakeFiles/Utilities.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/DecoderAnalyserApp/CMakeFiles/DecoderAnalyserApp.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/DecoderAnalyserApp/CMakeFiles/DecAnalyserSvnHeader.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/DecoderApp/CMakeFiles/DecoderApp.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/DecoderApp/CMakeFiles/DecSvnHeader.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/EncoderApp/CMakeFiles/EncoderApp.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/EncoderApp/CMakeFiles/EncSvnHeader.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/SEIRemovalApp/CMakeFiles/SEIRemovalApp.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/SEIRemovalApp/CMakeFiles/SeiRemovalSvnHeader.dir
+F:/Compression/VTM/tags/VTM-1.1/build/source/App/Parcat/CMakeFiles/parcat.dir

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Compression\VTM\tags\VTM-1.1\build\CMakeFiles\5a28e5cd10847da9db9e044ed1160a87\svnheader.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Compression\VTM\tags\VTM-1.1\build\CMakeFiles\9d0837202fa3212ee75c01380329809d\SeiRemovalSvnHeader.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Compression\VTM\tags\VTM-1.1\source\App\SEIRemovalApp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Compression\VTM\tags\VTM-1.1\build\source\App\SEIRemovalApp\CMakeFiles\SeiRemovalSvnHeader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A36FBCD6-1F6B-308F-98F1-49AC624EB6F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

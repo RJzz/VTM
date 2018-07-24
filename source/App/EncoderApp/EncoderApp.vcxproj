@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C5F3E72-4541-3D83-A4E1-A0F7562374AB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>EncoderApp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Compression\VTM\tags\VTM-1.1\bin\vs15\msvc-19.12\x86_64\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EncoderApp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Compression\VTM\tags\VTM-1.1\bin\vs15\msvc-19.12\x86_64\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EncoderApp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Compression\VTM\tags\VTM-1.1\bin\vs15\msvc-19.12\x86_64\minsizerel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EncoderApp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Compression\VTM\tags\VTM-1.1\bin\vs15\msvc-19.12\x86_64\relwithdebinfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EncoderApp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">EncoderApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs15\msvc-19.12\x86_64\debug\CommonLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\debug\EncoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\debug\DecoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\debug\Utilities.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\debug\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Compression/VTM/tags/VTM-1.1/lib/vs15/msvc-19.12/x86_64/debug/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Compression/VTM/tags/VTM-1.1/bin/vs15/msvc-19.12/x86_64/debug/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs15\msvc-19.12\x86_64\release\CommonLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\release\EncoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\release\DecoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\release\Utilities.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\release\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Compression/VTM/tags/VTM-1.1/lib/vs15/msvc-19.12/x86_64/release/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Compression/VTM/tags/VTM-1.1/bin/vs15/msvc-19.12/x86_64/release/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs15\msvc-19.12\x86_64\minsizerel\CommonLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\minsizerel\EncoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\minsizerel\DecoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\minsizerel\Utilities.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\minsizerel\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Compression/VTM/tags/VTM-1.1/lib/vs15/msvc-19.12/x86_64/minsizerel/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Compression/VTM/tags/VTM-1.1/bin/vs15/msvc-19.12/x86_64/minsizerel/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\.\x86;F:\Compression\VTM\tags\VTM-1.1\source\Lib\CommonLib\..\libmd5;F:\Compression\VTM\tags\VTM-1.1\source\Lib\EncoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\DecoderLib\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\.;F:\Compression\VTM\tags\VTM-1.1\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs15\msvc-19.12\x86_64\relwithdebinfo\CommonLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\relwithdebinfo\EncoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\relwithdebinfo\DecoderLib.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\relwithdebinfo\Utilities.lib;..\..\..\..\lib\vs15\msvc-19.12\x86_64\relwithdebinfo\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Compression/VTM/tags/VTM-1.1/lib/vs15/msvc-19.12/x86_64/relwithdebinfo/EncoderApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Compression/VTM/tags/VTM-1.1/bin/vs15/msvc-19.12/x86_64/relwithdebinfo/EncoderApp.pdb</ProgramDataBaseFile>
+      <StackReserveSize>0x200000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Compression\VTM\tags\VTM-1.1\build\CMakeFiles\febb3b2b6461c82a4c9f6c8a3463ce91\svnheader.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating svnheader.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DSOURCE_DIR=F:/Compression/VTM/tags/VTM-1.1 -DGENERATE_DUMMY=OFF -P F:/Compression/VTM/tags/VTM-1.1/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Compression/VTM/tags/VTM-1.1/build/CMakeFiles/febb3b2b6461c82a4c9f6c8a3463ce91/svnheader.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\svnheader.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating svnheader.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DSOURCE_DIR=F:/Compression/VTM/tags/VTM-1.1 -DGENERATE_DUMMY=OFF -P F:/Compression/VTM/tags/VTM-1.1/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Compression/VTM/tags/VTM-1.1/build/CMakeFiles/febb3b2b6461c82a4c9f6c8a3463ce91/svnheader.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\svnheader.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating svnheader.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DSOURCE_DIR=F:/Compression/VTM/tags/VTM-1.1 -DGENERATE_DUMMY=OFF -P F:/Compression/VTM/tags/VTM-1.1/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Compression/VTM/tags/VTM-1.1/build/CMakeFiles/febb3b2b6461c82a4c9f6c8a3463ce91/svnheader.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\svnheader.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating svnheader.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DSOURCE_DIR=F:/Compression/VTM/tags/VTM-1.1 -DGENERATE_DUMMY=OFF -P F:/Compression/VTM/tags/VTM-1.1/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Compression/VTM/tags/VTM-1.1/build/CMakeFiles/febb3b2b6461c82a4c9f6c8a3463ce91/svnheader.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\svnheader.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Compression/VTM/tags/VTM-1.1 -BF:/Compression/VTM/tags/VTM-1.1/build --check-stamp-file F:/Compression/VTM/tags/VTM-1.1/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Compression/VTM/tags/VTM-1.1 -BF:/Compression/VTM/tags/VTM-1.1/build --check-stamp-file F:/Compression/VTM/tags/VTM-1.1/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Compression/VTM/tags/VTM-1.1 -BF:/Compression/VTM/tags/VTM-1.1/build --check-stamp-file F:/Compression/VTM/tags/VTM-1.1/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Compression/VTM/tags/VTM-1.1 -BF:/Compression/VTM/tags/VTM-1.1/build --check-stamp-file F:/Compression/VTM/tags/VTM-1.1/build/source/App/EncoderApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Compression/VTM/tags/VTM-1.1/source/App/EncoderApp/CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\EncApp.cpp" />
+    <ClCompile Include="F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\EncAppCfg.cpp" />
+    <ClCompile Include="F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\encmain.cpp" />
+    <ClInclude Include="F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\EncApp.h" />
+    <ClInclude Include="F:\Compression\VTM\tags\VTM-1.1\source\App\EncoderApp\EncAppCfg.h" />
+    <Natvis Include="F:\Compression\VTM\tags\VTM-1.1\source\VisualStudio\common.natvis" />
+    <Natvis Include="F:\Compression\VTM\tags\VTM-1.1\source\VisualStudio\static_vector.natvis" />
+    <ClInclude Include="F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\svnheader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Compression\VTM\tags\VTM-1.1\build\ZERO_CHECK.vcxproj">
+      <Project>{CBDD035F-DDD8-3DA0-974E-8C10CB0CD981}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Compression\VTM\tags\VTM-1.1\build\source\Lib\CommonLib\CommonLib.vcxproj">
+      <Project>{DED2D0D7-8D9A-3775-8C27-A209E472AD3E}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Compression\VTM\tags\VTM-1.1\build\source\Lib\DecoderLib\DecoderLib.vcxproj">
+      <Project>{D4745371-44BE-3E4A-BED4-C9F9648EB607}</Project>
+      <Name>DecoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Compression\VTM\tags\VTM-1.1\build\source\App\EncoderApp\EncSvnHeader.vcxproj">
+      <Project>{0ACAEB9E-1402-3F79-B175-5CD458108049}</Project>
+      <Name>EncSvnHeader</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Compression\VTM\tags\VTM-1.1\build\source\Lib\EncoderLib\EncoderLib.vcxproj">
+      <Project>{AB3EDF2C-0B1E-3D98-AE66-E4F0A3D339D8}</Project>
+      <Name>EncoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Compression\VTM\tags\VTM-1.1\build\source\Lib\Utilities\Utilities.vcxproj">
+      <Project>{AA5E5475-00B0-3D8C-9DCA-C733F2E26CA4}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

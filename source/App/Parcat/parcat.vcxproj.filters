@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Compression\VTM\tags\VTM-1.1\source\App\Parcat\parcat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Compression\VTM\tags\VTM-1.1\source\App\Parcat\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC08FCC9-A8A4-320C-BB82-1007F58935DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
